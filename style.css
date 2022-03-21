@@ -1,0 +1,148 @@
+body {
+    background-color: #E71F7B;;
+}
+.container {
+    width: 1000px;
+    min-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+.card {
+    width: 640px;
+    position: relative;
+    background-color: white;
+    border-radius: 12px;
+}
+.logo {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+.logoImage {
+    border-radius: 500px;
+}
+.logoWrapper {
+    padding-left: 11px;
+    padding-top: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.brainForge {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #1e40af;
+}
+.sponsored {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #65676b;
+}
+.ellipsis {
+    padding-left: 440px;
+    padding-top: 20px;
+}
+.text {   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #050505;
+    padding-right: 45px;
+    padding-left: 20px;
+}
+.tagWrapper {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+}
+.tags {  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #395996;
+}
+.webpage {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #395996;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+.navWrapper { 
+    background-color: #F2F3F5;
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    padding: 20px;
+}
+.brainforgecom {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 135.69%;
+    color: #606770;
+}
+.htmlcssjs {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 135.69%;
+    color: #1D2129;
+    ali
+}
+.rectangle {
+    border: 2px solid #bec3c9;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 127.7%;
+    color:#4B4F56;
+    box-sizing: border-box;
+    width: 142px;
+    height: 36px;
+}
+.learnMore {
+    padding-left: 26px;
+}
+.footer {
+    display: flex;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 135.69%;
+    color: #606770;
+}
+.thumbs-up {
+    padding-left: 90px;
+    padding-right: 13px;
+}
+.message {
+    padding-left: 90px;
+    padding-right: 13px;
+}
+.share {
+    padding-left: 90px;
+    padding-right: 13px;
+}
+.mainImage {
+    margin-bottom: -4px;
+}
+   

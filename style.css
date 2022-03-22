@@ -26,12 +26,16 @@ body {
 }
 .logoImage {
     border-radius: 500px;
+    width: 40px;
+    height: 40px;
 }
 .logoWrapper {
     padding-left: 11px;
     padding-top: 4px;
     display: flex;
-    flex-direction: column;
+}
+.leftWrapper {
+    padding: 5px;
 }
 .brainForge {
     font-style: normal;
@@ -103,7 +107,6 @@ body {
     font-size: 17px;
     line-height: 135.69%;
     color: #1D2129;
-    ali
 }
 .rectangle {
     border: 2px solid #bec3c9;
@@ -117,34 +120,39 @@ body {
     box-sizing: border-box;
     width: 142px;
     height: 36px;
+    padding-top: 8px;
 }
 .learnMore {
-    padding-left: 26px;
+    padding-left: 30px;
+    
 }
 .footer {
     display: flex;
-    padding: 20px;
-    padding-bottom: 30px;
+    justify-content: space-around;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 135.69%;
     color: #606770;
-}
-.thumbs-up {
-    padding-left: 90px;
-    padding-right: 13px;
-}
-.message {
-    padding-left: 90px;
-    padding-right: 13px;
-}
-.share {
-    padding-left: 90px;
-    padding-right: 13px;
+    padding: 14px;
 }
 .mainImage {
     margin-bottom: -4px;
 }
-
+.rectangle:hover {
+    background-color: #DEDEDE;
+}
+.shares:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.likes {
+    display: flex;
+}
+.comments {
+    display: flex;
+}
+.shares {
+    display: flex;
+}
    

@@ -150,4 +150,7 @@ body {
 .like, .comment, .shareText {
     padding-left: 10px;
 }
+@media (max-width: 1000px) {
+    .like, .comment, .shareText {display: none;}
+}
    
